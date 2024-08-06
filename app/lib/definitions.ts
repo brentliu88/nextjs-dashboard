@@ -86,3 +86,8 @@ export type InvoiceForm = {
   amount: number;
   status: 'pending' | 'paid';
 };
+
+export interface InvoiceSums {
+  paid: number;
+  pending: number;
+};
